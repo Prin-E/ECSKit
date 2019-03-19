@@ -41,5 +41,10 @@ namespace ECSKit {
         
         // Constructor and destructor
         Entity() = delete;
+        
+        // identifier
+        FORCEINLINE uint64_t identifier() const;
+        FORCEINLINE size_type variation() const;
+        FORCEINLINE size_type index() const;
     };
 }

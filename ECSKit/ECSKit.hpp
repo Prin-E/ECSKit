@@ -9,6 +9,7 @@
 #pragma once
 
 #include "Common.hpp"
+#include "Traits.hpp"
 #include "Entity.hpp"
 #include "EntityPool.hpp"
 #include "Component.hpp"

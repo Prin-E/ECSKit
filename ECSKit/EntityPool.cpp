@@ -7,5 +7,16 @@
 //
 
 #include "EntityPool.hpp"
+#include <cassert>
 
 using namespace ECSKit;
+
+uint32_t EntityPool::_idCounter = 0;
+
+EntityPool::EntityPool(EntityPoolMaxSize capacity) {
+    assert(_idCounter == UINT32_MAX);
+    
+    
+}
+
+uint32_t EntityPool::id() const { return _id; }

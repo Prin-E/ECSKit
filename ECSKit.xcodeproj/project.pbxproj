@@ -19,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95AF605322414B66001BD16C /* Traits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Traits.hpp; sourceTree = "<group>"; };
 		95EE987C223EB8A500FAA552 /* System.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = System.cpp; sourceTree = "<group>"; };
 		95EE987D223EB8A500FAA552 /* System.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = System.hpp; sourceTree = "<group>"; };
 		95F0F749223D4E8C00890CA0 /* libECSKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libECSKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +73,7 @@
 				95F0F761223E028500890CA0 /* Component.hpp */,
 				95EE987C223EB8A500FAA552 /* System.cpp */,
 				95EE987D223EB8A500FAA552 /* System.hpp */,
+				95AF605322414B66001BD16C /* Traits.hpp */,
 			);
 			path = ECSKit;
 			sourceTree = "<group>";
