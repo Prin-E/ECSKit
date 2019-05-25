@@ -9,6 +9,7 @@
 #pragma once
 
 #include <cstdint>
+#include <cassert>
 
 // inline definition
 #if __clang__ || __GNUC__
@@ -17,5 +18,10 @@
 #define FORCEINLINE __forceinline
 #else
 #define FORCEINLINE inline
+#endif
+
+// ignore warning of pragma mark in VS
+#if _MSC_VER
+#pragma warning (disable:4068)
 #endif
 

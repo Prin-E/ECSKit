@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{7b0a2f48-8ab1-42c9-a40b-a2d3b66023f6}</UniqueIdentifier>
+      <Extensions>cpp;hpp;c;h;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ECSKit\Component.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ECSKit\Entity.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ECSKit\EntityPool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ECSKit\System.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ECSKit\Allocator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ECSKit\Component.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ECSKit\ECSKit.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ECSKit\Entity.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ECSKit\EntityPool.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ECSKit\System.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ECSKit\Traits.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ECSKit\Allocator.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ECSKit\Common.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".editorconfig" />
+  </ItemGroup>
+</Project>

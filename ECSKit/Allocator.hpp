@@ -8,7 +8,7 @@
 
 #pragma once
 
-#include "Common.h"
+#include "Common.hpp"
 #include <vector>
 
 namespace ECSKit {

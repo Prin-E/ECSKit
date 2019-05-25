@@ -52,3 +52,9 @@ xcuserdata/
 *.xcscmblueprint
 *.dSYM.zip
 *.dSYM
+
+# Visual Studio
+.vs
+Debug
+Release
+x64
